@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "受験指導"
 date:   2018-08-19 10:43:47 +0900
 categories: jekyll update
 ---
