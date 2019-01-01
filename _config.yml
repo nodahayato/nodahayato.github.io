@@ -1,9 +1,27 @@
 title: Atty. NODA Hayato J.D.
+email: nodah+github@locolo.jp
 description: >-
   by Atty.NODA Hayato J.D. - Lawyer admitted in Japan / 弁護士　野田隼人（滋賀弁護士会）
+
+baseurl:
+url: https://nodahayato.github.io
+
 twitter_username: nodahayato
 github_username: nodahayato
 
+#build settings
 lang: ja
-
+markdown: kramdown
 theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+sass:
+  style: compact
+permalink: /:title/
+
+tags:
+
+paginate: 10
+paginate_path:"/page:num/"
