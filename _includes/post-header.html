@@ -1,9 +1,0 @@
-<h1><span class="post-title">{{ page.title }}</span></h1>
-<span class="post-date">{{ page.date | default: "" | date: "%Y-%m-%d" }} | by Atty. NODA Hayato J.D.</span>
-<ul class="post-top-tags">
-{% for tag in page.tags %}
-  <li><a href="/tag/{{ tag }}" class="top-tag">{{ tag }}</a></li>
-{% endfor %}
-</ul>
-<div class="page-description">{{ page.description }}</div>
-{% include social_share.html %}
