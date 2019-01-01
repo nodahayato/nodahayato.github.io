@@ -1,0 +1,20 @@
+<!doctype html>
+{% include header.html %}
+{% include top-nav.html %}
+<section>
+  <div class="top-container">
+    <div class="post-container">
+    {% include post-header.html %}
+
+    {% include toc.html html=content sanitize=true %}
+
+    {{ content }}
+
+    {% include post-footer.html %}
+    </div>
+    <div class="side-bar">
+    {% include side-blog-list.html %}
+    </div>
+  </div>
+</section>
+{% include footer.html %}
