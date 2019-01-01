@@ -1,5 +1,5 @@
 ---
-layout: "post"
+layout: "page-layout"
 title : "経歴・業績等"
 permalink: "/about/"
 ---
