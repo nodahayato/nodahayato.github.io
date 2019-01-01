@@ -10,7 +10,6 @@ twitter_username: nodahayato
 github_username: nodahayato
 
 #build settings
-lang: ja
 markdown: kramdown
 theme: minima
 plugins:
