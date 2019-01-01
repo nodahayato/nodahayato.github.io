@@ -3,6 +3,8 @@ layout: "post"
 title : "経歴・業績等"
 ---
 
+{% include toc.html html=content sanitize=true %}
+
 # 経歴
 - 1981(昭和56)年　大阪市生まれ
 - 1999(平成11)年　私立　同志社高等学校卒業
