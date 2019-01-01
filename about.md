@@ -2,6 +2,7 @@
 layout: post
 title : "経歴・業績等"
 permalink: "/about/"
+date: 2018-08-19 10:43:47 +0900
 ---
 
 # 経歴
